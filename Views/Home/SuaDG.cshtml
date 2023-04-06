@@ -1,0 +1,64 @@
+﻿@model Quanlythuvien.Models.DocGia
+    @using Quanlythuvien.Models
+@{
+    ViewBag.Title = "Sửa độc giả";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var khoa = ViewData["khoa"] as List<Khoa>;
+}
+<main>
+
+    <div class="page-header">
+        <div>
+            <h1 class="font-weight-bold text-black" style="color:black">Sửa độc giả</h1>
+            <small>Trang chủ /Sửa độc giả</small>
+        </div>
+    </div>
+
+    <div class="page-content borrow-book-infomation">
+        <div class="borrow-book-infomation-left">
+            @using (Html.BeginForm(Html.BeginForm("SuaDG", "Home", FormMethod.Post, new { enctype = "multipart/form-data" })))
+            {
+                @Html.AntiForgeryToken()
+
+            <fieldset style="width:400px">
+                <legend>Thông tin hội viên</legend>
+                <input type="text" value="@Model.MaDocGia" name="Ma" hidden />
+                <div class="borrow-book-item">
+                    <span>Tên độc giả:</span><br>
+                    <input type="text" name="TenDocGia" value="@Model.TenDocGia"><br>
+                </div>
+                <div class="borrow-book-item">
+                    <span>MSSV/MSGV:</span><br>
+                    <input type="text" name="maso" value="@Model.MaSo"><br>
+                </div>
+                <div class="borrow-book-item">
+                    <span>Ngày sinh:</span><br>
+                    <input type="date" name="NgaySinh" value="@Model.NgaySinh.Value.ToString("yyyy-MM-dd")"><br>
+                </div>
+                <div class="borrow-book-item">
+                    <span>Khoa: </span><br>
+                    <select name="Khoa" class="form-group">
+                        @foreach (var item in khoa)
+                        {
+                            <option value="@item.Id" @(Model.Khoa == item.Id ? "selected" : "")>@item.TenKhoa</option>
+                        }
+                    </select>
+                </div>
+                <div class="borrow-book-item">
+                    <span>Số điện thoại:</span><br>
+                    <input type="text" name="SDT" value="@Model.SDT"><br>
+                </div>
+                <div class="borrow-book-item">
+                    <span>Giới tính:</span><br>
+                    <select name="GioiTinh">
+                        <option value="Nam" @(Model.GioiTinh == "Nam" ? "selected" : "")>Nam</option>
+                        <option value="Nữ" @(Model.GioiTinh == "Nữ" ? "selected" : "")>Nữ</option>
+                    </select>
+                </div>
+            </fieldset>
+                <button class="btn btn-success btn-borrow-book" style="margin-top: 24px; margin-left: 150px" type="submit">Sửa</button>
+            }
+        </div>
+    </div>
+</main>
+<script src="~/Scripts/app.js"></script>

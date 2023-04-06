@@ -1,0 +1,67 @@
+﻿@model Quanlythuvien.Models.NhanVien
+@{
+    ViewBag.Title = "Xóa nhân viên";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<main>
+
+    <div class="page-header">
+        <div>
+            <h1 class="font-weight-bold text-black" style="color:black">Xóa nhân viên</h1>
+            <small>Trang chủ /Xóa nhân viên</small>
+        </div>
+    </div>
+
+    <div class="page-content borrow-book-infomation">
+        <div class="borrow-book-infomation-left">
+            @using (Html.BeginForm(Html.BeginForm("XoaNV", "Home", FormMethod.Post, new { enctype = "multipart/form-data" })))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.HiddenFor(model => model.MaNV)
+                @Html.HiddenFor(model => model.HinhAnh)
+
+                <fieldset style="width:400px">
+                    <legend>Thông tin nhân viên</legend>
+                    <div class="borrow-book-item">
+                        <span>Tên nhân viên:</span><br>
+                        <input type="text" name="HoTen" value="@Model.HoTen"><br>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>Ngày sinh:</span><br>
+                        <input type="date" name="NgaySinh" value="@Model.NgaySinh.Value.ToString("yyyy-MM-dd")"><br>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>Số điện thoại:</span><br>
+                        <input type="text" name="SDT" value="@Model.SDT"><br>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>Giới tính:</span><br>
+                        <select name="GioiTinh">
+                            <option value="Nam" @(Model.GioiTinh == "Nam" ? "selected" : "")>Nam</option>
+                            <option value="Nữ" @(Model.GioiTinh == "Nữ" ? "selected" : "")>Nữ</option>
+                        </select>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>UserName:</span><br>
+                        <input type="text" name="user" value="@Model.UserName"><br>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>PassWord:</span><br>
+                        <input type="text" name="pass" value="@Model.PassWord"><br>
+                    </div>
+                    <div class="borrow-book-item">
+                        Hình ảnh
+                        <div class="col-md-10">
+                            <img id="output" class="img-rounded" atl="Ảnh" width="180" height="200" src="~/img/@Model.HinhAnh" />
+                            <p><label for="ufile" style="cursor: pointer;">Chọn file ảnh</label></p>
+                            <input name="ImageFile" id="ufile" type="file" style="display: none;" onchange="loadFile(event)" />
+                        </div>
+                    </div>
+                </fieldset>
+                <button class="btn btn-success btn-borrow-book" style="margin-top: 24px; margin-left: 150px" type="submit">Xóa</button>
+            }
+        </div>
+    </div>
+</main>
+<script src="~/Scripts/app.js"></script>

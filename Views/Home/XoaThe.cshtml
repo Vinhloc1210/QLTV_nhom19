@@ -1,0 +1,43 @@
+﻿@model Quanlythuvien.Models.TheThanhVien
+@{
+    ViewBag.Title = "Xóa Thẻ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main>
+
+    <div class="page-header">
+        <div>
+            <h1 class="font-weight-bold text-black" style="color:black">Xóa thẻ</h1>
+            <small>Trang chủ /Xóa thẻ</small>
+        </div>
+    </div>
+
+    <div class="page-content borrow-book-infomation">
+        <div class="borrow-book-infomation-left">
+            @using (Html.BeginForm(Html.BeginForm("XoaThe", "Home", FormMethod.Post, new { enctype = "multipart/form-data" })))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                @Html.HiddenFor(model => model.MaThe)
+                @Html.HiddenFor(model => model.TinhTrang)
+
+
+                <fieldset style="width:400px">
+                    <legend>Thông tin thẻ thành viên</legend>
+                    <div class="borrow-book-item">
+                        <span>Mã độc giả:</span><br>
+                        <input type="text" name="MaDocGia" value="@Model.MaDocGia"><br>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>Ngày hết hạn:</span><br>
+                        <input type="date" name="NgayHetHan" value="@Model.NgayHetHan.Value.ToString("yyyy-MM-dd")"><br>
+                    </div>
+                  
+                </fieldset>
+                <button class="btn btn-success btn-borrow-book" style="margin-top: 24px; margin-left: 150px" type="submit">Xóa</button>
+            }
+        </div>
+    </div>
+</main>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Quanlythuvien1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DocGia">
+    <Key>
+      <PropertyRef Name="MaDocGia" />
+    </Key>
+    <Property Name="MaDocGia" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="TenDocGia" Type="nvarchar" MaxLength="50" />
+    <Property Name="MaSo" Type="varchar" MaxLength="50" />
+    <Property Name="NgaySinh" Type="date" />
+    <Property Name="Khoa" Type="int" />
+    <Property Name="SDT" Type="varchar" MaxLength="10" />
+    <Property Name="GioiTinh" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Quanlythuvien1.dbo.Khoa' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Khoa">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TenKhoa" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="MuonSach">
+    <Key>
+      <PropertyRef Name="MaPhieu" />
+    </Key>
+    <Property Name="MaPhieu" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="MaDocGia" Type="varchar" MaxLength="6" />
+    <Property Name="NgayMuon" Type="date" />
+    <Property Name="NgayHenTra" Type="date" />
+    <Property Name="NgayLapPhieu" Type="date" />
+    <Property Name="MaNV" Type="varchar" MaxLength="6" />
+    <Property Name="MaSach" Type="varchar" MaxLength="6" />
+  </EntityType>
+  <EntityType Name="NhanVien">
+    <Key>
+      <PropertyRef Name="MaNV" />
+    </Key>
+    <Property Name="MaNV" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="HoTen" Type="nvarchar" MaxLength="100" />
+    <Property Name="NgaySinh" Type="date" />
+    <Property Name="SDT" Type="varchar" MaxLength="10" />
+    <Property Name="GioiTinh" Type="nvarchar" MaxLength="10" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="100" />
+    <Property Name="PassWord" Type="nvarchar" MaxLength="100" />
+    <Property Name="HinhAnh" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Phong">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="TenPhong" Type="nvarchar" MaxLength="50" />
+    <Property Name="TinhTrang" Type="int" />
+  </EntityType>
+  <EntityType Name="Sach">
+    <Key>
+      <PropertyRef Name="MaSach" />
+    </Key>
+    <Property Name="MaSach" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="TenSach" Type="nvarchar" MaxLength="200" />
+    <Property Name="Id_TL" Type="int" />
+    <Property Name="TacGia" Type="nvarchar" MaxLength="100" />
+    <Property Name="NhaXB" Type="nvarchar" MaxLength="100" />
+    <Property Name="TinhTrang" Type="int" />
+  </EntityType>
+  <EntityType Name="TheLoai">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TenLoai" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TheThanhVien">
+    <Key>
+      <PropertyRef Name="MaThe" />
+    </Key>
+    <Property Name="MaThe" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="MaDocGia" Type="varchar" MaxLength="6" />
+    <Property Name="NgayHetHan" Type="date" />
+    <Property Name="TinhTrang" Type="int" />
+  </EntityType>
+  <EntityContainer Name="Quanlythuvien1ModelStoreContainer">
+    <EntitySet Name="DocGia" EntityType="Self.DocGia" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MuonSach" EntityType="Self.MuonSach" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NhanVien" EntityType="Self.NhanVien" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Phong" EntityType="Self.Phong" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sach" EntityType="Self.Sach" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TheLoai" EntityType="Self.TheLoai" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TheThanhVien" EntityType="Self.TheThanhVien" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Khoa" EntityType="Self.Khoa" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Khoa].[Id] AS [Id], 
+    [Khoa].[TenKhoa] AS [TenKhoa]
+    FROM [dbo].[Khoa] AS [Khoa]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

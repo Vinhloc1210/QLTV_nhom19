@@ -1,0 +1,258 @@
+﻿@model IEnumerable<Quanlythuvien.Models.TheThanhVien>
+@using Quanlythuvien.Models
+@{
+    ViewBag.Title = "QuanLiTheThanhVien";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var hoivien = ViewData["hoivien"] as List<DocGia>;
+
+}
+
+<main>
+
+    <div class="page-header">
+        <div>
+            <h1 class="font-weight-bold text-black" style="color:black">Quản lý thẻ</h1>
+            <small>Trang chủ / Quản lý thẻ</small>
+        </div>
+
+    </div>
+    <div class="page-content" style="display:flex; justify-content:space-between;">
+        <div class="">
+            <a class="btn12 active" href="@Url.Action("QuanLiTheThanhVien","Home")">Xem thông tin thẻ thành viên</a>
+            <a class="btn12" href="@Url.Action("CreateThe","Home")">Tạo thẻ thành viên</a>
+        </div>
+        
+        <div style="margin-left:465px" class="">
+            <select name="tinhtrang" id="tinhtrang" onchange="load()">
+                <option value="">
+                    --Tình trạng--
+                </option>
+                <option value="3">Tất cả</option>
+                <option value="1">
+                    Còn hạn
+                </option>
+                <option value="2">
+                    Hết hạn
+                </option>
+            </select>
+            <button class="btn btn-outline-primary btn-update-book" id="open-modal">Tìm kiếm thẻ</button>
+        </div>
+    </div>
+    @if (TempData["AlertMessage"] != null)
+    {
+        <div class="alert alert-success" style="text-align:center">
+            <strong>Thành công !</strong> @TempData["AlertMessage"]
+            <button type="button" class="close" data-dismiss="alert">
+                <span>&times;</span>
+                @*<span>x</span>*@
+            </button>
+        </div>
+
+    }
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-list">
+                <div class="modal-item">
+                    <h4 class="modal-heading" style="text-align:center ;">Nhập mã thẻ</h4>
+                    @using (Html.BeginForm("QuanLiTheThanhVien", "Home"))
+                    {
+                        <label style="margin-left:100px" for="">Mã thẻ:</label>
+                        <input type="text" placeholder="VD:T0001" name="key">
+                        <button class="btn btn-outline-info btn-update-book" id="" style="margin-right:72px;" type="submit">Xác nhận</button>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="page-content">
+        <div>
+            <table class="table-fill" width="100%">
+                <thead>
+                    <tr>
+                        <th class="text-center">Mã thẻ</th>
+                        <th class="text-center">Họ tên chủ thẻ</th>
+                        <th class="text-center">Mã độc giả</th>
+                        <th class="text-center">Ngày hết hạn</th>
+                        <th class="text-center">Tình trạng</th>
+                        <th class="text-center">Thao tác</th>
+
+                    </tr>
+                </thead>
+                <tbody class="table-hover">
+                    @foreach (var m in Model)
+                    {
+                        <tr>
+                            <td class="text-left" style="color:indianred">@m.MaThe</td>
+                            <td class="text-left">@hoivien.FirstOrDefault(g => g.MaDocGia == m.MaDocGia).TenDocGia</td>
+                            <td class="text-left">@m.MaDocGia</td>
+                            <td class="text-left">@m.NgayHetHan.Value.ToString("dd-MM-yyyy")</td>
+                            @if (m.TinhTrang == 1)
+                            {
+
+
+                                <td class="text-left"><span style="color: forestgreen" class="btn btn-paid">Còn hạn</span></td>
+                            }
+                            else
+                            {
+                                <td class="text-left"> <span style="color:red" class="btn btn-borrow">Hết hạn</span></td>
+                            }
+                            <td class="text-center">
+                                <a href="@Url.Action("SuaThe", "Home", new {Id=m.MaThe})" style=" background-color: cadetblue ; color: #fff; border: none; padding: 16px; font-size: 16px; cursor: pointer;border-radius:20px">Sửa</a>
+                                &nbsp;
+                                <a href="@Url.Action("XoaThe", "Home", new {Id=m.MaThe})" style=" background-color: cadetblue; color: #fff; border: none; padding: 16px; font-size: 16px; cursor: pointer; border-radius: 20px">Xóa</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</main>
+<style>
+
+
+
+    /*** Table Styles **/
+
+    .table-fill {
+        background: white;
+        border-radius: 3px;
+        border-collapse: collapse;
+        height: auto;
+        margin: auto;
+        max-width: 1400px;
+        padding: 5px;
+        width: 100%;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        animation: float 5s infinite;
+    }
+
+    th {
+        color: white;
+        background: #1b1e24;
+        border-bottom: 4px solid #9ea7af;
+        border-right: 1px solid #343a45;
+        font-size: 40px;
+        font-weight: 100;
+        padding: 24px;
+        text-align: left;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        vertical-align: middle;
+    }
+
+        th:first-child {
+            border-top-left-radius: 3px;
+        }
+
+        th:last-child {
+            border-top-right-radius: 3px;
+            border-right: none;
+        }
+
+    tr {
+        border-top: 1px solid #C1C3D1;
+        border-bottom: 1px solid #C1C3D1;
+        color: #666B85;
+        font-size: 16px;
+        font-weight: normal;
+        text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+    }
+
+        tr:hover td {
+            background: #4E5066;
+            color: #FFFFFF;
+            border-top: 1px solid #22262e;
+        }
+
+        tr:first-child {
+            border-top: none;
+        }
+
+        tr:last-child {
+            border-bottom: none;
+        }
+
+        tr:nth-child(odd) td {
+            background: #EBEBEB;
+        }
+
+        tr:nth-child(odd):hover td {
+            background: #4E5066;
+        }
+
+        tr:last-child td:first-child {
+            border-bottom-left-radius: 3px;
+        }
+
+        tr:last-child td:last-child {
+            border-bottom-right-radius: 3px;
+        }
+
+    td {
+        background: #FFFFFF;
+        padding: 20px;
+        text-align: left;
+        vertical-align: middle;
+        font-weight: 300;
+        font-size: 18px;
+        text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+        border-right: 1px solid #C1C3D1;
+    }
+
+        td:last-child {
+            border-right: 0px;
+        }
+
+    th.text-left {
+        text-align: left;
+    }
+
+    th.text-center {
+        text-align: center;
+        color: white;
+        background: #1b1e24;
+        border-bottom: 4px solid #9ea7af;
+        border-right: 1px solid #343a45;
+        font-size: 18px;
+        font-weight: 100;
+        padding: 24px;
+        text-align: left;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        vertical-align: middle;
+    }
+
+    th.text-right {
+        text-align: right;
+    }
+
+    td.text-left {
+        padding-left: 10px
+    }
+
+    td.text-center {
+        text-align: center;
+    }
+
+    td.text-right {
+        text-align: right;
+    }
+</style>
+<script src="~/Scripts/app.js"></script>
+<script>
+    function load() {
+        debugger;
+        var m = document.getElementById('tinhtrang').value;
+        if (m != "" && m < 3) {
+            window.location.href = '/Home/QuanLiTheThanhVien?Id=' + m;
+        } else if (m == 3) {
+            window.location.href = '/Home/QuanLiTheThanhVien';
+        }
+    }
+</script>

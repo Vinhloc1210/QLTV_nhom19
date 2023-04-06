@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "MuonSach";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<main>
+
+    <div class="page-header">
+        <div>
+            <h1 class="font-weight-bold text-black" style="color:black">Mượn sách</h1>
+            <small>Trang chủ / Mượn sách</small>
+        </div>
+    </div>
+
+    <!-- Thông tin mượn sách -->
+    <div class="page-content">
+        <a class="btn12 active" href="@Url.Action("MuonSach","Home")">Mượn sách</a>
+        <a class="btn12" href="@Url.Action("Quanlimuon","Home")">Kiểm tra phiếu mượn</a>
+    </div>
+    <form action="/Home/MuonSach" method="post">
+        <div class="page-content borrow-book-infomation">
+            <div class="borrow-book-infomation-right">
+
+                <fieldset style="width:400px">
+                    <legend>Thông tin mượn</legend>
+                    <div class="borrow-book-item">
+                        <span>Mã sách:</span><br>
+                        <input type="text" name="MaSach" required><br>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>Mã độc giả:</span><br>
+                        <input type="text" name="MaDocGia" required><br>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>Ngày mượn:</span><br>
+                        <input type="date" name="NgayMuon" required><br>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>Ngày hẹn trả:</span><br>
+                        <input type="date" name="NgayHenTra" required><br>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>Ngày lập phiếu:</span><br>
+                        <input type="date" name="NgayLapPhieu" required><br>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+
+        <div class="page-content">
+            <button class="btn btn-success  btn-borrow-book " style="margin-left:595px" type="submit">Đồng ý</button>
+        </div>
+    </form>
+</main>
+<script src="~/Scripts/app.js"></script>

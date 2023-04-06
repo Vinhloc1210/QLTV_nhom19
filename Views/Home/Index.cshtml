@@ -1,0 +1,129 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div style="background: url(/img//background-home.jpg); height: 380px;padding-left:420px" class="jumbotron bg-cover text-white">
+    <div class=" py-5 text-center" style="border-radius:20px; margin-top: 90px; width: 500px; height: 150px; background: rgba(0, 0, 0, 0.5); ">
+        <h1 class="display-4 font-weight-bold" style="margin-bottom:100px">THƯ VIỆN VUI VẺ</h1>
+    </div>
+    
+</div>
+<div class="row" >
+    <div class="col-lg-3 col-6">
+        <!-- small box -->
+        <div class="small-box bg-info">
+            <div class="inner" style="display:flex">
+                <div>
+                    <h3>@ViewBag.TongSLDG<sup style="font-size: 20px">người</sup></h3>
+                    <p>Số lượng độc giả</p>
+                </div>
+                <div style="padding-left:60px;padding-top:10px">
+                    <i class="fa-solid fa-users " style="font-size:60px"></i>
+
+                </div>
+
+            </div>
+            <div class="icon">
+                <i class="ion ion-bag"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <!-- ./col -->
+    <div class="col-lg-3 col-6">
+        <!-- small box -->
+        <div class="small-box bg-success">
+            <div class="inner" style="display:flex">
+                <div>
+                    <h3>@ViewBag.SLSDM<sup style="font-size: 20px">cuốn</sup></h3>
+                    <p>Số lượng sách đã mượn</p>
+                </div>
+                <div style="padding-bottom:10px;padding-left:20px">
+                    <i class="las  la-book-reader " style="font-size:80px"></i>
+                </div>
+            </div>
+            <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <!-- ./col -->
+    <div class="col-lg-3 col-6">
+        <!-- small box -->
+        <div class="small-box" style="background-color:rebeccapurple">
+            <div class="inner" style="color:white;display:flex">
+                <div>
+                    <h3>@ViewBag.SLSCM<sup style="font-size: 20px">cuốn</sup></h3>
+                    <p>Số lượng sách chưa mượn</p>
+                </div>
+                <div style="padding-bottom:10px;padding-left:10px">
+                    <i class="las las-bounce la-book" style="font-size:75px"></i>               
+                </div>
+            </div>
+            <div class="icon">
+                <i class="ion ion-person-add"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <!-- ./col -->
+    <div class="col-lg-3 col-6">
+        <!-- small box -->
+        <div class="small-box bg-danger">
+            <div class="inner" style="display:flex">
+                <div>
+                    <h3>@ViewBag.TongSLS<sup style="font-size: 20px">cuốn</sup></h3>
+                    <p>Tổng số lượng sách</p>
+                </div>
+                <div style="padding-bottom:10px;padding-left:40px">
+                    <i class="las la-building" style="font-size:80px"></i>              
+                </div>
+            </div>
+            <div class="icon">
+                <i class="ion ion-pie-graph"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <!-- ./col -->
+</div>
+<div class="card card-success">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-12 col-lg-6 col-xl-4">
+                <div class="card mb-2 bg-gradient-dark">
+                    <img style="height:250px;width:250px" class="card-img-top" src="~/img/hinh1.jpg" alt="Dist Photo 1">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end">
+                        <h5 class="card-title text-primary text-white">N.Ôxtơrốpxki</h5>
+                        <p class="card-text text-white pb-2 pt-1">
+                            "Sách có thể ít đi một chút, nhưng phải tốt đẹp hơn. Không nên đặt một cuốn sách tầm thường lên giá sách"
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-6 col-xl-4">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="~/img/hinh2.jpg" alt="Dist Photo 2">
+                    <div class="card-img-overlay d-flex flex-column justify-content-center">
+                        <h5 class="card-title text-red mt-5 pt-2">J.Milton</h5>
+                        <p class="card-text pb-2 pt-1 text-white">
+                            "Một quyển sách hay là đời sống xương máu quý giá của một tinh thần ướp hương và cất kín cho mai sau"
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-6 col-xl-4">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="~/img/hinh3.jpg" alt="Dist Photo 3">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title text-black">G.Létxinh</h5>
+                        <p class="card-text pb-1 pt-1 text-white">
+                            "Ai đọc sách mà không biết được nhiều hơn những điều viết trong sách, người đó mới sử dụng sách có một nửa. Sách làm trí tuệ con người sâu sắc hơn và sáng sủa hơn"
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

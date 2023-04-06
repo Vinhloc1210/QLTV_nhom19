@@ -1,0 +1,219 @@
+﻿@model IEnumerable<Quanlythuvien.Models.NhanVien>
+@using Quanlythuvien.Models
+@{
+    ViewBag.Title = "Danh sách nhân viên";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main>
+
+    <div class="page-header">
+        <div>
+            <h1 class="font-weight-bold text-black" style="color:black">Xem thông tin nhân viên</h1>
+            <small>Trang chủ / Xem thông tin nhân viên</small>
+        </div>
+    </div>
+
+    <!-- Thông tin mượn sách -->
+    <div class="page-content" style="display:flex; justify-content:space-between;">
+        <div class="">
+            <a class="btn12 active" href="@Url.Action("Quanlinv","Home")">Xem thông tin nhân viên</a>
+            <a class="btn12" href="@Url.Action("CreateNV","Home")">Thêm nhân viên</a>
+        </div>
+
+        <div class="">
+
+            @using (Html.BeginForm("Quanlinv", "Home"))
+            {
+                <label for="">Mã nhân viên:</label>
+                <input type="text" placeholder="VD:NV00001" name="key">
+                <button class="btn btn-outline-primary btn-update-book" id="" style="margin-right:72px;" type="submit">Tìm kiếm</button>
+            }
+
+        </div>
+    </div>
+    @if (TempData["AlertMessage"] != null)
+    {
+        <div class="alert alert-success" style="text-align:center">
+            <strong>Thành công !</strong> @TempData["AlertMessage"]
+            <button type="button" class="close" data-dismiss="alert">
+                <span>&times;</span>
+                @*<span>x</span>*@
+            </button>
+        </div>
+
+    }
+
+
+    <div class="page-content">
+        <div>
+            <table class="table-fill" width="100%">
+                <thead>
+                    <tr>
+                        <th class="text-center">Mã nhân viên</th>
+                        <th class="text-center">Tên nhân viên</th>
+                        <th class="text-center">Ngày sinh</th>
+                        <th class="text-center">Số điện thoại</th>
+                        <th class="text-center">Giới tính</th>
+                        <th class="text-center">Ảnh đại diện</th>
+                        <th class="text-center">Thao tác</th>
+                    </tr>
+                </thead>
+
+                <tbody class="table-hover">
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="text-left" style="color:indianred">@item.MaNV</td>
+                            <td class="text-left">@item.HoTen</td>
+                            <td class="text-left">@item.NgaySinh.Value.ToString("dd-MM-yyyy")</td>
+
+                            <td class="text-left">
+                                @item.SDT
+                            </td>
+                            <td class="text-left">@item.GioiTinh</td>
+                            <td class="text-left"><img src="~/img/@item.HinhAnh" style="width:100px;height:100px" /></td>
+                            <td class="text-center">
+                                <a href="@Url.Action("SuaNV", "Home", new {Id=item.MaNV})" style=" background-color: cadetblue ; color: #fff; border: none; padding: 16px; font-size: 16px; cursor: pointer;border-radius:20px">Sửa</a>
+                                &nbsp;
+                                <a href="@Url.Action("XoaNV", "Home", new {Id=item.MaNV})" style=" background-color: cadetblue; color: #fff; border: none; padding: 16px; font-size: 16px; cursor: pointer; border-radius: 20px">Xóa</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</main>
+<style>
+
+
+
+    /*** Table Styles **/
+
+    .table-fill {
+        background: white;
+        border-radius: 3px;
+        border-collapse: collapse;
+        height: auto;
+        margin: auto;
+        max-width: 1400px;
+        padding: 5px;
+        width: 100%;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        animation: float 5s infinite;
+    }
+
+    th {
+        color: white;
+        background: #1b1e24;
+        border-bottom: 4px solid #9ea7af;
+        border-right: 1px solid #343a45;
+        font-size: 40px;
+        font-weight: 100;
+        padding: 24px;
+        text-align: left;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        vertical-align: middle;
+    }
+
+        th:first-child {
+            border-top-left-radius: 3px;
+        }
+
+        th:last-child {
+            border-top-right-radius: 3px;
+            border-right: none;
+        }
+
+    tr {
+        border-top: 1px solid #C1C3D1;
+        border-bottom: 1px solid #C1C3D1;
+        color: #666B85;
+        font-size: 16px;
+        font-weight: normal;
+        text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+    }
+
+        tr:hover td {
+            background: #4E5066;
+            color: #FFFFFF;
+            border-top: 1px solid #22262e;
+        }
+
+        tr:first-child {
+            border-top: none;
+        }
+
+        tr:last-child {
+            border-bottom: none;
+        }
+
+        tr:nth-child(odd) td {
+            background: #EBEBEB;
+        }
+
+        tr:nth-child(odd):hover td {
+            background: #4E5066;
+        }
+
+        tr:last-child td:first-child {
+            border-bottom-left-radius: 3px;
+        }
+
+        tr:last-child td:last-child {
+            border-bottom-right-radius: 3px;
+        }
+
+    td {
+        background: #FFFFFF;
+        padding: 20px;
+        text-align: left;
+        vertical-align: middle;
+        font-weight: 300;
+        font-size: 18px;
+        text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+        border-right: 1px solid #C1C3D1;
+    }
+
+        td:last-child {
+            border-right: 0px;
+        }
+
+    th.text-left {
+        text-align: left;
+    }
+
+    th.text-center {
+        text-align: center;
+        color: white;
+        background: #1b1e24;
+        border-bottom: 4px solid #9ea7af;
+        border-right: 1px solid #343a45;
+        font-size: 18px;
+        font-weight: 100;
+        padding: 24px;
+        text-align: left;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        vertical-align: middle;
+    }
+
+    th.text-right {
+        text-align: right;
+    }
+
+    td.text-left {
+        padding-left: 10px
+    }
+
+    td.text-center {
+        text-align: center;
+    }
+
+    td.text-right {
+        text-align: right;
+    }
+</style>
+<script src="./app.js"></script>
+

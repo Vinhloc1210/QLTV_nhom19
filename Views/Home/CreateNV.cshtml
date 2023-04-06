@@ -1,0 +1,78 @@
+﻿@using Quanlythuvien.Models
+@{
+    ViewBag.Title = "Thêm nhân viên";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<main>
+
+    <div class="page-header">
+        <div>
+            <h1 class="font-weight-bold text-black" style="color:black">Tạo nhân viên</h1>
+            <small>Trang chủ / Tạo nhân viên</small>
+        </div>
+    </div>  <div class="page-content" style="display:flex; justify-content:space-between;">
+        <div class="">
+            <a class="btn12 active" href="@Url.Action("CreateNV","Home")">Thêm nhân viên</a>
+            <a class="btn12 " href="@Url.Action("Quanlinv","Home")">Xem thông tin nhân viên</a>
+
+        </div>
+    </div>
+
+    <div class="page-content borrow-book-infomation">
+        <div class="borrow-book-infomation-left">
+            @using (Html.BeginForm(Html.BeginForm("CreateNV", "Home", FormMethod.Post, new { enctype = "multipart/form-data" })))
+            {
+                @Html.AntiForgeryToken()
+                <fieldset style="width:400px">
+                    <legend>Thông tin nhân viên</legend>
+                    <div class="borrow-book-item">
+                        <span>Tên nhân viên:</span><br>
+                        <input type="text" name="HoTen" required><br>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>Ngày sinh:</span><br>
+                        <input type="date" name="NgaySinh" required><br>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>Số điện thoại:</span><br>
+                        <input type="text" name="SDT" required><br>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>Giới tính:</span><br>
+                        <select name="GioiTinh">
+                            <option value="Nam">Nam</option>
+                            <option value="Nữ">Nữ</option>
+                        </select>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>UserName:</span><br>
+                        <input type="text" name="user" required><br>
+
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>PassWord:</span><br>
+                        <input type="text" name="pass" required><br>
+                    </div>
+                    <div class="borrow-book-item">
+                        Hình ảnh
+                        <div class="col-md-10">
+                            <img id="output" class="img-rounded" atl="Ảnh" width="180" height="200" src="~/img/istockphoto-1357365823-612x612.jpg" />
+                            <p><label for="ufile" style="cursor: pointer;">Chọn file ảnh</label></p>
+                            <input  name="ImageFile" id="ufile" type="file" style="display: none;" onchange="loadFile(event)" />
+                        </div>
+                    </div>
+                </fieldset>
+                <button class="btn btn-success btn-borrow-book" style="margin-top:24px;margin-left:150px" type="submit">Tạo nhân viên</button>
+             }
+        </div>
+    </div>
+</main>
+<script>
+    var loadFile = function (event) {
+        debugger;
+        var image = document.getElementById('output');
+        image.src = URL.createObjectURL(event.target.files[0]);
+    };
+</script>
+<script src="~/Scripts/app.js"></script>
+

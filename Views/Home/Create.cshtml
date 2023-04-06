@@ -1,0 +1,50 @@
+﻿@using Quanlythuvien.Models
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var tl = ViewData["tl"] as List<TheLoai>;
+}
+<main>
+
+    <div class="page-header">
+        <div>
+            <h1 class="font-weight-bold text-black" style="color:black">Tạo mã sách</h1>
+            <small>Trang chủ / Tạo sách</small>
+        </div>
+    </div>
+
+    <div class="page-content borrow-book-infomation">
+        <div class="borrow-book-infomation-left">
+            <form action="/Home/Create" method="post">
+                <fieldset style="width:400px">
+                    <legend>Thông tin sách</legend>
+                    <div class="borrow-book-item">
+                        <span>Tên sách:</span><br>
+                        <input type="text" name="TenSach" required><br>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>Thể loại</span><br>
+                        <select name="TheLoai" class="form-group">
+                            @foreach (var item in tl)
+                            {
+                                <option value="@item.Id">@item.TenLoai</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>Nhà xuất bản:</span><br>
+                        <input type="text" name="NhaXB" required><br>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>Tác giả:</span><br>
+                        <input type="text" name="TacGia" required><br>
+                    </div>
+                </fieldset>
+                <button class="btn btn-success btn-borrow-book" style="margin-top:24px;margin-left:150px" type="submit">Tạo mã sách</button>
+            </form>
+        </div>
+
+
+    </div>
+</main>
+

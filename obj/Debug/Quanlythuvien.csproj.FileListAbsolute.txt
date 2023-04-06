@@ -1,0 +1,330 @@
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Quanlythuvien.dll.config
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Quanlythuvien.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Quanlythuvien.pdb
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csc.exe
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csc.exe.config
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csc.rsp
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csi.exe
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csi.exe.config
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csi.rsp
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.Managed.Core.targets
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.AppContext.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Collections.Immutable.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Console.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Globalization.Calendars.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.IO.Compression.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.IO.FileSystem.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Net.Http.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Net.Sockets.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Reflection.Metadata.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.ValueTuple.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Xml.XmlDocument.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Xml.XPath.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\vbc.exe
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\vbc.exe.config
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\vbc.rsp
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\VBCSCompiler.exe
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\VBCSCompiler.exe.config
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Antlr3.Runtime.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Microsoft.Web.Infrastructure.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Newtonsoft.Json.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Helpers.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Mvc.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Optimization.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Razor.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.Deployment.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.Razor.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\WebGrease.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Helpers.xml
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Mvc.xml
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Optimization.xml
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Razor.xml
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.xml
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.Deployment.xml
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.Razor.xml
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Newtonsoft.Json.xml
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Antlr3.Runtime.pdb
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\obj\Debug\Quanlythuvien.csproj.AssemblyReference.cache
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\obj\Debug\Quanlythuvien.csproj.CoreCompileInputs.cache
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\obj\Debug\Quanlythuvien.csproj.CopyComplete
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\obj\Debug\Quanlythuvien.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\obj\Debug\Quanlythuvien.pdb
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\EntityFramework.dll
+F:\OneDrive\Desktop\New folder (2)\qltv\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\EntityFramework.xml
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Quanlythuvien.dll.config
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Quanlythuvien.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Quanlythuvien.pdb
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csc.exe
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csc.exe.config
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csc.rsp
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csi.exe
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csi.exe.config
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csi.rsp
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.AppContext.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Console.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.IO.Compression.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Net.Http.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Net.Sockets.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.ValueTuple.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Xml.XPath.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\vbc.exe
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\vbc.exe.config
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\vbc.rsp
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\VBCSCompiler.exe
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Antlr3.Runtime.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\EntityFramework.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Newtonsoft.Json.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Helpers.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Mvc.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Optimization.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Razor.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.Deployment.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.Razor.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\WebGrease.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\EntityFramework.xml
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Helpers.xml
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Mvc.xml
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Optimization.xml
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Razor.xml
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.xml
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.Deployment.xml
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.Razor.xml
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Newtonsoft.Json.xml
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Antlr3.Runtime.pdb
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\obj\Debug\Quanlythuvien.csproj.AssemblyReference.cache
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\obj\Debug\Quanlythuvien.csproj.CoreCompileInputs.cache
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\obj\Debug\Quanlythuvien.csproj.CopyComplete
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\obj\Debug\Quanlythuvien.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\obj\Debug\Quanlythuvien.pdb
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\EntityFramework.SqlServer.dll
+C:\Users\vanqu\Desktop\New folder\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\EntityFramework.SqlServer.xml
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Quanlythuvien.dll.config
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Quanlythuvien.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Quanlythuvien.pdb
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csc.exe
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csc.exe.config
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csc.rsp
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csi.exe
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csi.exe.config
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csi.rsp
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.Managed.Core.targets
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.AppContext.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Collections.Immutable.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Console.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Globalization.Calendars.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.IO.Compression.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.IO.FileSystem.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Net.Http.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Net.Sockets.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Reflection.Metadata.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.ValueTuple.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Xml.XmlDocument.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Xml.XPath.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\vbc.exe
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\vbc.exe.config
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\vbc.rsp
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\VBCSCompiler.exe
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\VBCSCompiler.exe.config
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Antlr3.Runtime.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\EntityFramework.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\EntityFramework.SqlServer.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Microsoft.Web.Infrastructure.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Newtonsoft.Json.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Helpers.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Mvc.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Optimization.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Razor.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.Deployment.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.Razor.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\WebGrease.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\EntityFramework.xml
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\EntityFramework.SqlServer.xml
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Helpers.xml
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Mvc.xml
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Optimization.xml
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Razor.xml
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.xml
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.Deployment.xml
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.Razor.xml
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Newtonsoft.Json.xml
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Antlr3.Runtime.pdb
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\obj\Debug\Quanlythuvien.csproj.AssemblyReference.cache
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\obj\Debug\Quanlythuvien.csproj.CoreCompileInputs.cache
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\obj\Debug\Quanlythuvien.csproj.CopyComplete
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\obj\Debug\Quanlythuvien.dll
+F:\OneDrive\Desktop\New folder (2)\New folder (2)\QuanLyThuVien\Quanlythuvien\Quanlythuvien\obj\Debug\Quanlythuvien.pdb
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\obj\Debug\Quanlythuvien.csproj.AssemblyReference.cache
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\obj\Debug\Quanlythuvien.csproj.CoreCompileInputs.cache
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\obj\Debug\Quanlythuvien.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\obj\Debug\Quanlythuvien.pdb
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Quanlythuvien.dll.config
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Quanlythuvien.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Quanlythuvien.pdb
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csc.exe
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csc.exe.config
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csc.rsp
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csi.exe
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csi.exe.config
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\csi.rsp
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.Managed.Core.targets
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.AppContext.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Collections.Immutable.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Console.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Globalization.Calendars.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.IO.Compression.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.IO.FileSystem.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Net.Http.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Net.Sockets.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Reflection.Metadata.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.ValueTuple.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Xml.XmlDocument.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Xml.XPath.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\vbc.exe
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\vbc.exe.config
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\vbc.rsp
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\VBCSCompiler.exe
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\roslyn\VBCSCompiler.exe.config
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Antlr3.Runtime.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\EntityFramework.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\EntityFramework.SqlServer.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Microsoft.Web.Infrastructure.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Newtonsoft.Json.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Helpers.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Mvc.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Optimization.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Razor.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.Deployment.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.Razor.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\WebGrease.dll
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\EntityFramework.xml
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\EntityFramework.SqlServer.xml
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Helpers.xml
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Mvc.xml
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Optimization.xml
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.Razor.xml
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.xml
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.Deployment.xml
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\System.Web.WebPages.Razor.xml
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Newtonsoft.Json.xml
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Antlr3.Runtime.pdb
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\QuanLyThuVien\Quanlythuvien\Quanlythuvien\obj\Debug\Quanlythuvien.csproj.CopyComplete

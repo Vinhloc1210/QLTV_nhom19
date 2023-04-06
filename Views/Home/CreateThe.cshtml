@@ -1,0 +1,40 @@
+﻿@using Quanlythuvien.Models
+@{
+    ViewBag.Title = "Tạo thẻ thành viên";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<main>
+    <div class="page-header">
+        <div>
+            <h1 class="font-weight-bold text-black" style="color:black">Tạo thẻ thành viên</h1>
+            <small>Trang chủ / Tạo thẻ thành viên</small>
+        </div>
+    </div>  <div class="page-content" style="display:flex; justify-content:space-between;">
+        <div class="">
+            <a class="btn12 active" href="@Url.Action("CreateThe","Home")">Tạo thẻ thành viên</a>
+            <a class="btn12 " href="@Url.Action("QuanLiTheThanhVien","Home")">Xem thông tin nhân viên</a>
+
+        </div>
+    </div>
+    <div class="page-content borrow-book-infomation">
+        <div class="borrow-book-infomation-left">
+            @using (Html.BeginForm(Html.BeginForm("CreateThe", "Home", FormMethod.Post, new { enctype = "multipart/form-data" })))
+            {
+                @Html.AntiForgeryToken()
+                <fieldset style="width:400px">
+                    <legend>Thông tin thẻ</legend>
+                    <div class="borrow-book-item">
+                        <span>Mã độc giả:</span><br>
+                        <input type="text" name="MaDocGia" required><br>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>Ngày hết hạn:</span><br>
+                        <input type="date" name="NgayHetHan" required><br>
+                    </div>
+                </fieldset>
+                <button class="btn btn-success btn-borrow-book" style="margin-top:24px;margin-left:150px" type="submit">Tạo thẻ</button>
+            }
+        </div>
+    </div>
+</main>
+<script src="~/Scripts/app.js"></script>

@@ -1,0 +1,67 @@
+﻿@using Quanlythuvien.Models
+@{
+    ViewBag.Title = "Them hội viên";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var khoa = ViewData["khoa"] as List<Khoa>;
+}
+<main>
+
+    <div class="page-header">
+        <div>
+            <h1 class="font-weight-bold text-black" style="color:black">Tạo hội viên</h1>
+            <small>Trang chủ / Tạo hội viên</small>
+        </div>
+    </div>  <div class="page-content" style="display:flex; justify-content:space-between;">
+        <div class="">
+            <a class="btn12 active" href="@Url.Action("CreateDG","Home")">Thêm độc giả</a>
+            <a class="btn12 " href="@Url.Action("ListDocGia","Home")">Xem thông tin hội viên</a>
+            
+        </div>
+    </div>
+
+    <div class="page-content borrow-book-infomation">
+        <div class="borrow-book-infomation-left">
+            <form action="/Home/CreateDG" method="post">
+                <fieldset style="width:400px">
+                    <legend>Thông tin hội viên</legend>
+                    <div class="borrow-book-item">
+                        <span>Tên độc giản:</span><br>
+                        <input type="text" name="TenDocGia" required><br>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>MSSV/MSGV:</span><br>
+                        <input type="text" name="maso" required><br>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>Ngày sinh:</span><br>
+                        <input type="date" name="NgaySinh" required><br>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>Khoa: </span><br>
+                        <select name="Khoa" class="form-group">
+                            @foreach (var item in khoa)
+                            {
+                                <option value="@item.Id">@item.TenKhoa</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>Số điện thoại:</span><br>
+                        <input type="text" name="SDT" required><br>
+                    </div>
+                    <div class="borrow-book-item">
+                        <span>Giới tính:</span><br>
+                        <select name="GioiTinh">
+                            <option value="Nam">Nam</option>
+                            <option value="Nữ">Nữ</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <button class="btn btn-success btn-borrow-book" style="margin-top: 24px; margin-left: 120px" type="submit">Tạo hội viên mới</button>
+            </form>
+        </div>
+
+
+    </div>
+</main>
+

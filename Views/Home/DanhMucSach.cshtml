@@ -1,0 +1,271 @@
+﻿@model IEnumerable<Quanlythuvien.Models.Sach>
+@using Quanlythuvien.Models
+@{
+    ViewBag.Title = "DanhMucSach";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var tl = ViewData["tl"] as List<TheLoai>;
+}
+
+<main>
+
+    <div class="page-header">
+        <div>
+            <h1 class="font-weight-bold text-black" style="color:black">Danh mục sách</h1>
+            <small>Trang chủ / Danh mục sách</small>
+        </div>
+    </div>
+    <div class="page-content" style="display:flex">
+        @using (Html.BeginForm("DanhMucSach", "Home",FormMethod.Get))
+        {
+            <div class="page-content">
+                <label>Nhập thông tin sách:</label>
+                <div style="display:flex">
+                    <input type="text" placeholder="Nhập mã sách, tên sách, tác giả" class="search-book-input" name="keysearch">
+                  
+                    <button class="btn btn-outline-primary btn-find-book" id="" type="submit">Tìm kiếm</button>
+                </div>
+
+            </div>
+            
+        }
+        <div class="page-content">
+            <button class="btn  btn-update-book btn-outline-info btn-block btn-flat" style="height:50px;width:250px;margin-top:27px;margin-left:300px" id="open-modal"><i class="fa fa-book"></i> Cập nhật danh mục sách</button>
+        </div>
+    </div>
+    @if (TempData["AlertMessage"] != null)
+     {
+        <div class="alert alert-success" style="text-align:center">
+            <strong>Thành công !</strong> @TempData["AlertMessage"]
+            <button type="button" class="close" data-dismiss="alert">
+                <span>&times;</span>
+                @*<span>x</span>*@
+            </button>
+        </div>
+
+     }
+    <!-- The Modal -->
+    <form action="/Home/CapNhatTrangThai" method="post">
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-list">
+                    <div class="modal-item">
+                        <h4 class="modal-heading">Mã Sách</h4>
+                        <input type="text" placeholder="Nhập mã sách" name="ma" required>
+                    </div>
+                    <div class="modal-item">
+                        <h4 class="modal-heading">Thể loại</h4>
+                        <select name="TheLoai" class="form-group">
+                            @foreach (var item in tl)
+                            {
+                                <option value="@item.Id">@item.TenLoai</option>
+                            }
+                        </select>
+                    </div>
+
+                    <div class="modal-item">
+                        <h4 class="modal-heading">Tình trạng</h4>
+                        <select name="tinh-trang-sach" id="tinh-trang-sach">
+                            <option value="1">Sử dụng</option>
+                            <option value="2">Được mượn</option>
+                            <option value="3">Quá hạn</option>
+                            <option value="4">Hư hỏng</option>
+                            <option value="5">Thanh lý</option>
+
+                        </select>
+                        <button style="margin-left:150px;margin-bottom:5px" id="update-book-list" class="btn btn-success" type="submit">Cập nhật</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </form>
+    <div class="page-content">
+        <div>
+            <table class="table-fill"  width="100%">
+                <thead>
+                    <tr>
+                        <th class="text-center">Mã sách</th>
+                        <th class="text-center">Tên sách</th>
+                        <th class="text-center" >Thể loại</th>
+                        <th class="text-center">Tác giả</th>
+                        <th class="text-center">Nhà xuất bản</th>
+                        <th class="text-center">Tình trạng</th>
+                    </tr>
+                </thead>
+                <tbody  class="table-hover">
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="text-left" style="color:indianred">@item.MaSach</td>
+                            <td class="text-left">@item.TenSach</td>
+                            <td class="text-left">@tl.FirstOrDefault(g => g.Id == item.Id_TL).TenLoai</td>
+                            <td class="text-left">@item.TacGia</td>
+                            <td class="text-left">@item.NhaXB</td>
+                            <td class="text-left">
+
+
+
+                                @if (item.TinhTrang == 1)
+                                {
+                                    <span style="color:purple">Sử dụng</span>
+                                }
+                                else if (item.TinhTrang == 2)
+                                {
+                                    <span style="color:forestgreen">Được mượn</span>
+                                }
+                                else if (item.TinhTrang == 3)
+                                {
+                                    <span style="color:darkblue">Quá hạn</span>
+                                }
+                                else if (item.TinhTrang == 4)
+                                {
+                                    <span style="color:orangered">Hư hỏng</span>
+                                }
+                                else if (item.TinhTrang == 5)
+                                {
+                                    <span style="color:saddlebrown">Thanh lý</span>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</main>
+<style>
+
+
+
+/*** Table Styles **/
+
+.table-fill {
+  background: white;
+  border-radius:3px;
+  border-collapse: collapse;
+  height: auto;
+  margin: auto;
+  max-width: 1400px;
+  padding:5px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+}
+
+th {
+  color:white;
+  background:#1b1e24;
+  border-bottom:4px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size:40px;
+  font-weight: 100;
+  padding:24px;
+  text-align:left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+}
+
+th:first-child {
+  border-top-left-radius:3px;
+}
+
+th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+
+tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom: 1px solid #C1C3D1;
+  color:#666B85;
+  font-size:16px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+tr:hover td {
+  background:#4E5066;
+  color:#FFFFFF;
+  border-top: 1px solid #22262e;
+}
+
+tr:first-child {
+  border-top:none;
+}
+
+tr:last-child {
+  border-bottom:none;
+}
+
+tr:nth-child(odd) td {
+  background:#EBEBEB;
+}
+
+tr:nth-child(odd):hover td {
+  background:#4E5066;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+
+td {
+  background:#FFFFFF;
+  padding:20px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+
+th.text-left {
+  text-align: left;
+}
+
+    th.text-center {
+        text-align: center;
+        color: white;
+        background: #1b1e24;
+        border-bottom: 4px solid #9ea7af;
+        border-right: 1px solid #343a45;
+        font-size: 18px;
+        font-weight: 100;
+        padding: 24px;
+        text-align: left;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        vertical-align: middle;
+    }
+
+th.text-right {
+  text-align: right;
+}
+
+td.text-left {
+    padding-left:10px
+}
+
+td.text-center {
+  text-align: center;
+}
+
+td.text-right {
+  text-align: right;
+}
+</style>
+<script src="~/Scripts/app.js"></script>
